@@ -25,4 +25,5 @@ function onColorSwitcherStop() {
   stopBtnEl.disabled = 'true';
 }
 startBtnEl.addEventListener('click', onColorSwitcherStart);
+
 stopBtnEl.addEventListener('click', onColorSwitcherStop);
